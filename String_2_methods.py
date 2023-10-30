@@ -53,6 +53,20 @@ string_1 = "aaabbbcccaaaaazzzzz"
 #
 ################Split - returns a list as output
 
-txt = "apple#banana#cherry#orange"
+# txt = "apple#banana#cherry#orange"
+#
+# x = txt.split("#")
+# print(x)
 
-x = txt.split("#")
+name = input("please enter your full name : ")
+# name.split(" ")
+list_of_name = name.split(" ")
+print(list_of_name[0])
+print(list_of_name[1])
+print(list_of_name[2])
+
+print(list_of_name)
+
+# syntax  : separator.join(iterable)
+thecomplete_name  = "***".join(list_of_name)
+print(thecomplete_name)
