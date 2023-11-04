@@ -13,28 +13,29 @@ creating a list ,reading lists ,  updting lists ,operations
 
 # []  - empty list , the paranthesis , block paranthesis
 # each item is separated by a comma
-# first_task = "Install Python"
-# second_task = "Learn Python"
-# third_task = "Take a break"
+first_task = "Install Python"
+second_task = "Learn Python"
+third_task = "Take a break"
 #
-# # tasks = ["Install Python","Learn Python","Take a break"]
-# # tasks2 = [first_task,second_task,third_task]
+# #
+tasks2 = [first_task,second_task,third_task]
+print(tasks2)
 # # print(len(tasks2))
 
-# list1 = [1,2,3,4,45236] # ist of inytegers
+# list1 = [1,2,3,4,45236] # list of inytegers
 # list2 = ['a','b','c','d','e'] # list of strings
 # list3 = [1, 'absdsds','b',2]  # mixed list
 
 #
 # # task is to create list of numbers from 1-10
-# #
-# numbers_list = list(range(1,10))
+# #list(iterable) will create a new list
+# numbers_list = list(range(1,11))
 # print(numbers_list)
 #
 # print(f"{numbers_list[2]} is the third element in list ")
 
 # friends = ["Ashley", "Matt", "Michael"]
-
+#
 # print(friends[0]) # 'Ashley'
 # print(friends[2]) # 'Michael'
 # print(friends[-1]) # last element in list
