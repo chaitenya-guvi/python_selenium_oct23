@@ -37,7 +37,6 @@ print(first_list)  # ['b', 'c', 'd']
 
 """
 del 
-
 Deletes a value from a list
 """
 
