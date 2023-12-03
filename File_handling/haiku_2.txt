@@ -1,0 +1,6 @@
+Writing files is great
+Here's another line of text
+Closing now, goodbye!
+Closing now, goodnight!
+Hello this is  new 5th line 
+this is the sixth line
