@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ABC</title>
+</head>
+<body>
+
+
+<h2>JavaScript HTML DOM</h2>
+
+<p id="intro">Finding HTML Elements by Id</p>
+<p>This example demonstrates the <b>getElementsById</b> method.</p>
+
+<p id="demo"></p>
+
+
+<ul>
+        <li>getElementsByTagName
+            <ul>
+                <li>document.getElementsByTagName('tagName')</li>
+                <li>the output will be in list -> listNodes -> collections</li>
+            </ul>
+        </li>
+        <hr>
+
+        <li>getElementsByClassName
+            <ul>
+                <li>document.getElementsByClassName('className')</li>
+                <li>the output will be in list -> listNodes -> collections</li>
+            </ul>
+        </li>
+        <hr>
+
+        <li>getElementsById
+            <ul>
+                <li>document.getElementsById('id')</li>
+                <li>the output will be only one element a unique element</li>
+            </ul>
+        </li>
+        <hr>
+
+<script>
+const element = document.getElementById("intro");
+
+document.getElementById("demo").innerHTML =
+"The text from the intro paragraph is: " + element.innerHTML;
+
+</script>
+</ul>
+</body>
+</html>
+

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>regex continued</title>
+    <style>
+        [href ~="unique"]{
+            background-color: blue ;
+            color: rgb(16, 219, 77);
+        }
+
+
+        [href *="chaite"]{
+            color: black;
+            border: 10px solid black;
+            background-color: yellow
+        }
+    </style>
+</head>
+<body>
+    <a href="https://www.google.com" >starts with HTTPS</a>
+    <hr>
+    <a href="www.google.co" >Ending with co - this is just example</a>
+    <hr>
+    <a href="unique" >~ character for exact match example</a>
+    <hr>
+    <a href="www.goochaitenya2gle.co" >* character for seraching contains string </a>
+    <hr>
+    <p>redirection in new tab</p>
+    <a href="https://www.gchaitenyaoogle.co" target="_blank">Google in new tab </a>
+    <hr>
+    <p>redirection in new tab & reusing the same tab</p>
+    <a href="https://www.google.com" >Google in same tab </a>
+
+</body>
+</html>

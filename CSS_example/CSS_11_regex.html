@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Regex</title>
+    <style>
+        [href ^= "https"]{
+            background-color: red;
+        }
+        [href $= "co"]{
+            background-color: orange;
+        }
+
+
+
+    </style>
+
+</head>
+<body>
+    <a href="https://www.google.com" >starts with HTTPS</a>
+    <hr>
+    <a   href="www.google.co" >Ending with co - this is just example</a>
+    <hr>
+    <a href="chaitenya" >chaitenya exact</a>
+    <hr>
+    <a href="www.goochaitenya2gle.co" >chaitenya contains</a>
+    <hr>
+    <p>redirection in new tab</p>
+    <a href="https://www.gchaitenyaoogle.co" target="_blank">Google in new tab </a>
+    <hr>
+    <p>redirection in new tab & reusing the same tab</p>
+    <a href="https://www.google.com" >Google in same tab </a>
+
+</body>
+</html>
