@@ -18,10 +18,10 @@ class FindByLinkText():
         print(driver.title)
         print(driver.current_url)
 
-        webelement_ByLinkText = driver.find_element(By.LINK_TEXT, "BLOG")
+        webelement_ByLinkText = driver.find_element(By.LINK_TEXT, "INTERVIEW")
 
         if webelement_ByLinkText is not None:
-            print("We found blog element by Link Text")
+            print("We found INTERVIEW element by Link Text")
 
         webelement_ByLinkText.click()
         print(driver.title)
